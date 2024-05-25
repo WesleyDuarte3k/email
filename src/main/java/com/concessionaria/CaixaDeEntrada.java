@@ -33,5 +33,9 @@ public class CaixaDeEntrada {
 	public CaixaDeEntrada(String enderecoDeEmail) {
 		this.enderecoDeEmail = enderecoDeEmail;
 	}
+
+	public ArrayList<Email> obtemEmailsEnviados(){
+		return emailsEnviados;
+	}
 }
 

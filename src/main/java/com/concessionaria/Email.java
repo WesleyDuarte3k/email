@@ -12,4 +12,13 @@ public class Email {
 		this.titulo = titulo;
 		this.conteudo = conteudo;
 	}
+
+	@Override
+	public String toString() {
+		return "Email { " +
+			"Remetente = '" + remetente + '\n' +
+			"\n Destinatario = '" + destinatario + '\n' +
+			"\n Titulo = '" + titulo + '\n' +
+			"\n Conteudo = \n '" + conteudo + '\n' ;
+	}
 }
